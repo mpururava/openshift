@@ -6,6 +6,6 @@ USER root
 COPY  ./jars/ /opt/softwareag/IntegrationServer/lib/jars/
 
 COPY  ./mscconfigs/mscsend.properties /mscconfigs/
-RUN chgrp -Rf root /opt/softwareag/ && chmod -Rf 775 /opt/softwareag/ 
+RUN chgrp -Rf root /opt/softwareag/ && chmod -Rf 777 /opt/softwareag/ 
 
 USER sagadmin 
