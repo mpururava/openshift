@@ -1,4 +1,4 @@
-FROM store/softwareag/webmethods-microservicesruntime:10.4.0.0 
+FROM store/softwareag/webmethods-microservicesruntime:10.4.0.
 
 USER root
 
